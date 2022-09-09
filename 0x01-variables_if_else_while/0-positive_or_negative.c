@@ -15,9 +15,9 @@ int main(void)
 		/* check if generated number is +ve, zero or -ve */
 		if (n > 0)
 		{
-			printf("%i is positive\n", n);
+		printf("%i is positive\n", n);
 		}
-		else if (n == 0)	
+		else if (n == 0)
 		{
 		printf("%i is zero\n", n);
 		}
