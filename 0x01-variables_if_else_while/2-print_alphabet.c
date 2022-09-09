@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-		int counter = 0;
 		char initialXter = 'a';
 		
 		while(initialXter <= 'z')
