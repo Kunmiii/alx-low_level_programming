@@ -8,13 +8,14 @@
  */
 int main(void)
 {
-		char initialXter = 'a';		
-		while (initialXter <= 'z')
-		{
-			putchar(initialXter);
-			initialXter++;
-		}
+	char initialXter = 'a';
+	
+	while (initialXter <= 'z')
+	{
+		putchar(initialXter);
+		initialXter++;
+	}
 		putchar('\n');
 
-		return (0);
+	return (0);
 }
