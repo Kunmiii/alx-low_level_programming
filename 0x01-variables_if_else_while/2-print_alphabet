@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - entry point for the program
+ * Description: programprints letter a-z in lowercase
+ * Return: zero is returned for successful compilation, otherwise non-zero
+ */
+int main(void)
+{
+		int counter = 0;
+		char initialXter = 'a';
+		
+		while(initialXter != 'z')
+		{
+			putchar("%c ", initialXter);
+			initialXter++;
+		}
+}
