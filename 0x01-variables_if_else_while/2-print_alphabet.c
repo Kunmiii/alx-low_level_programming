@@ -11,9 +11,12 @@ int main(void)
 		int counter = 0;
 		char initialXter = 'a';
 		
-		while(initialXter != 'z')
+		while(initialXter <= 'z')
 		{
-			putchar("%c ", initialXter);
+			putchar(initialXter);
 			initialXter++;
 		}
+		putchar('\n');
+
+		return (0);
 }
