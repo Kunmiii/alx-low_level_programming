@@ -3,7 +3,8 @@
 #include <time.h>
 /**
  * main - entry point for the program
- * Description: program generates, checks got equal to, less than or greater a number
+ * Description: program generates, checks got equal to,
+ * less than or greater a number
  * Return: zero is returned for successful compilation, otherwise non-zero
  */
 int main(void)
