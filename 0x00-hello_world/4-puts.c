@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *Main - this is the entry point for the program
- *Return: By default returns zero if no errors otherwise returns non-zero
+ * main - this is the entry point for the program
+ * Description: this program prints using the puts function
+ * Return: By default returns zero if no errors otherwise returns non-zero
  */
 int main(void)
 {
