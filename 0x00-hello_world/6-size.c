@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
+/**
  * main - this is the entry point of the program
- * 
  * Description: this program prints size of various types
  * Return: retruns zero if no errors, return non-zero if errors
  */
