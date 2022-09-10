@@ -9,7 +9,7 @@
 int main(void)
 {
 	char initialXter = 'a';
-	
+
 	while (initialXter <= 'z')
 	{
 		putchar(initialXter);
