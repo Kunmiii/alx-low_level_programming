@@ -13,7 +13,7 @@ int main(void)
 		{
 			j = (i / 10);
 			k = (i % 10);
-			
+
 			if (k > j)
 			{
 				j = (j + '0');
@@ -21,12 +21,12 @@ int main(void)
 
 				putchar(j);
 				putchar(k);
-				
+
 				if (i == 89)
 				{
 					break;
 				}
-				
+
 				putchar(44);
 				putchar(32);
 			}
