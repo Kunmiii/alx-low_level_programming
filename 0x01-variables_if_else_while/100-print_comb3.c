@@ -14,7 +14,7 @@ int main(void)
 			j = (i / 10);
 			k = (i % 10);
 			
-			if (k < j)
+			if (k > j)
 			{
 				j = (j + '0');
 				k = (k + '0');
