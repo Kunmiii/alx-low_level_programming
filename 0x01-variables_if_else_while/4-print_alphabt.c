@@ -12,9 +12,10 @@ int main(void)
 	while (xter <= 'z')
 	{
 		if (xter != 'e' && xter != 'q')
-		putchar(xter);
+			putchar(xter);
 		xter++;
-       	}
-	
+	}
+		putchar('\n');
+
 	return (0);
 }
