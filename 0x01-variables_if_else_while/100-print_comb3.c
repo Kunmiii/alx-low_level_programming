@@ -23,7 +23,7 @@ int main(void)
 				putchar(k);
 			}
 				
-			if (i = 89)
+			if (i == 89)
 			{
 				break;
 			}
