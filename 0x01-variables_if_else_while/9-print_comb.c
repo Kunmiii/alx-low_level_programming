@@ -13,6 +13,9 @@ int main(void)
 		{
 			putchar(i);
 			putchar(44);
+			if (i == 57)
+				break;
+
 			putchar(32);
 		}
 			putchar('\n');
