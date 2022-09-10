@@ -14,5 +14,7 @@ int main(void)
 		if (xter != 'e' && xter != 'q')
 		putchar(xter);
 		xter++;
-	}
+       	}
+	
+	return (0);
 }
