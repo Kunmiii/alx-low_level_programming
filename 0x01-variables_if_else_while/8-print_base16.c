@@ -19,7 +19,7 @@ int main(void)
 		n++;
 	}
 
-	while (a < 102)
+	while (a <= 102)
 	{
 		putchar(a);
 		a++;
