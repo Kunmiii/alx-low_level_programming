@@ -13,17 +13,18 @@ int main(void)
 	a = 97;
 	n = 48;
 
-	while (a < 123)
+	while (n < 58)
+	{
+		putchar(n);
+		n++;
+	}
+
+	while (a < 102)
 	{
 		putchar(a);
 		a++;
 	}
 
-	while (n <= 58)
-	{
-		putchar(n);
-		n++;
-	}
 		putchar('\n');
 
 	return (0);
