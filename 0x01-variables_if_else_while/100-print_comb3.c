@@ -21,14 +21,16 @@ int main(void)
 
 				putchar(j);
 				putchar(k);
-			}
+			
 				
-			if (i == 89)
-			{
-				break;
+				if (i == 89)
+				{
+					break;
+				}
+				
+				putchar(44);
+				putchar(32);
 			}
-			putchar(44);
-			putchar(32);
 		}
 			putchar('\n');
 
