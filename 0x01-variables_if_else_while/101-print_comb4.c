@@ -12,7 +12,7 @@ int main(void)
 		for (i = 0; i < 1000; i++)
 		{
 			j = (i / 100);
-			k = (i / 10)%10;
+			k = (i / 10) % 10;
 			l = (i % 10);
 
 			if (k < l && k > j)
@@ -25,7 +25,7 @@ int main(void)
 				putchar(k);
 				putchar(l);
 
-				if (i == 899)
+				if (i < 899)
 				{
 					break;
 				}
