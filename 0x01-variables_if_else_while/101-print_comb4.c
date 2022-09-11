@@ -15,7 +15,7 @@ int main(void)
 			k = (i / 10) % 10;
 			l = (i % 10);
 
-			if (k < l && k > j)
+			if (j < k && k < l)
 			{
 				j = (j + '0');
 				k = (k + '0');
