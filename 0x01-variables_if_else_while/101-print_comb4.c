@@ -25,7 +25,7 @@ int main(void)
 				putchar(k);
 				putchar(l);
 
-				if (i < 899)
+				if (i == 790)
 				{
 					break;
 				}
