@@ -7,20 +7,23 @@
 int main(void)
 {
 
-		int i, j, k;
+		int i, j, k, l;
 
 		for (i = 0; i < 1000; i++)
 		{
 			j = (i / 100);
-			k = (i % 100);
+			k = (i / 10)%10;
+			l = (i % 10);
 
-			if (k > j)
+			if (k < l && k > j)
 			{
 				j = (j + '0');
 				k = (k + '0');
+				l = (l + '0');
 
 				putchar(j);
 				putchar(k);
+				putchar(l);
 
 				if (i == 899)
 				{
