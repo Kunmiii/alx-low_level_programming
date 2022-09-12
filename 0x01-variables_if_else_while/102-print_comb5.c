@@ -1,18 +1,16 @@
 #include <stdio.h>
 /**
- * main: main program starts at this point
- *
- * Description: write a program that prints possible
- * combinations of twotwo-digit numbers.
- * The numbers should range from 0 to 99
- * The two numbers should be separated by a space
- * All numbers should be printed with two digits. 1 should be printed as `01`
- * The combination of numbers must be separated by comma, followed by a space
- * The combinations of numbers should be printed in ascending order
- * You can only use the putchar function
- * You can only use putchar eight times maximum in your code
- * You are not allowed to use any variable of type char
- * All your code should be in the main function
+ * main - main program starts at this point.
+ * Description: write a program that prints possible.
+ * The numbers should range from 0 to `99`.
+ * The two numbers should be separated by a space.
+ * All numbers should be printed with two digits. 1 should be printed as `01`.
+ * The combination of numbers must be separated by comma, followed by a space.
+ * The combinations of numbers should be printed in ascending order.
+ * You can only use the putchar function.
+ * You can only use putchar eight times maximum in your code.
+ * You are not allowed to use any variable of type char.
+ * All your code should be in the main function.
  * Return: 0
  */
 int main(void)
