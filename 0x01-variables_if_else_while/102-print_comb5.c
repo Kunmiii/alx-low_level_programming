@@ -27,7 +27,7 @@ int main(void)
 			c = (j / 10);
 			d = (j % 10);
 
-			if ( a < c || (a == c && b < d))
+			if (a < c || (a == c && b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
@@ -48,5 +48,5 @@ int main(void)
 	}
 		putchar(10);
 
-		return(0);
+		return (0);
 }
