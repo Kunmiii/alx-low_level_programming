@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet: program that prints the alphabet in lowercase
+* print_alphabet - program that prints the alphabet in lowercase
 * only putchar.
 * Return: 0
 */
