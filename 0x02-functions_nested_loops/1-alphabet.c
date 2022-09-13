@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-* print_alphabet - program that prints the alphabet in lowercase
-* only putchar.
+* print_alphabet - prints the alphabet in lowercase seonly putchar.
+* prototype: void print_alphabet(void);
+* you can only use _putchar twice in your code
 * Return: 0
 */
 void print_alphabet(void)
