@@ -18,12 +18,13 @@ void print_alphabet_x10(void)
 		int a = 97;
 		int z = 122;
 
-		while (a < z)
+		while (a <= z)
 		{
 			_putchar(a);
 			a++;
 		}
-
+		
+		i++;
 		_putchar('\n');
 	}
 }
