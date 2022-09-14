@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 
 	i = 0;
 
-	while (i < 11)
+	while (i < 10)
 	{
 		int a = 97;
 		int z = 122;
@@ -23,7 +23,7 @@ void print_alphabet_x10(void)
 			_putchar(a);
 			a++;
 		}
-		
+
 		i++;
 		_putchar('\n');
 	}
