@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -6,9 +7,8 @@
  * Description: program generates and prints random numbers
  * Return: zero is returned for successful compilation, otherwise non-zero
  */
-int main(void)
+int positive_negative(int n)
 {
-		int n;
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
