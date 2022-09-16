@@ -7,7 +7,7 @@
  * Description: program generates and prints random numbers
  * Return: zero is returned for successful compilation, otherwise non-zero
  */
-int positive_negative(int n)
+int positive_or_negative(int n)
 {
 
 		srand(time(0));
