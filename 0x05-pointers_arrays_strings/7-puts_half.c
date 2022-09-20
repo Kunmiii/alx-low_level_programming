@@ -20,6 +20,6 @@ void puts_half(char *str)
 
 	} else if (m % 2 == 1)
 	{
-		_putchar(str[(strlen(s) - 1) / 2]);
+		_putchar(str[(strlen(str) - 1) / 2]);
 	}
 }
