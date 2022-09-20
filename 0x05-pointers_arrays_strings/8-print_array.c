@@ -24,10 +24,7 @@ void print_array(int *a, int n)
 		
 		if (a[n] > 0 || a[n] == 0 || a[n] < 0)
 		{
-			printf("%d", a[n]);
-
-			if (n == 4n)
-				break;
+			printf("%d, %i", a[n], c);
 
 			printf(",");
 			printf(" ");
