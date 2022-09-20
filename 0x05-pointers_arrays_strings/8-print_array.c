@@ -12,7 +12,7 @@
  */
 void print_array(int *a, int n)
 {
-	int e, b, c, d;
+	int e, b, c, d, i;
 
 	e = sizeof(a);
 	b = sizeof(int);
@@ -24,8 +24,8 @@ void print_array(int *a, int n)
 		if (a[i] > 0 || a[i] == 0 || a[i] < 0)
 		{
 			printf("%d", a[i]);
-			printf(',');
-			printf(' ');
+			printf(32);
+			printf(44');
 		}
 
 		printf('\n');
