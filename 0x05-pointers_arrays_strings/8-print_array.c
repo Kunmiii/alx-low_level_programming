@@ -26,7 +26,7 @@ void print_array(int *a, int n)
 		{
 			printf("%d", a[n]);
 
-			if (n == 4)
+			if (n == 4n)
 				break;
 
 			printf(",");
