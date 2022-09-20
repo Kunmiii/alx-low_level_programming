@@ -24,8 +24,8 @@ void print_array(int *a, int n)
 		if (a[i] > 0 || a[i] == 0 || a[i] < 0)
 		{
 			printf("%d", a[i]);
-			printf(32);
-			printf(44');
+			_putchar(32);
+			_putchar(44);
 		}
 
 		printf('\n');
