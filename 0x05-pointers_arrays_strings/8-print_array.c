@@ -19,14 +19,13 @@ void print_array(int *a, int n)
 
 	c = (e / b);
 
-	for (d = 0; d < c; d++)
+	for (n = 0; n < c; n++)
 	{
 		if (a[n] > 0 || a[n] == 0 || a[n] < 0)
 		{
 			printf("%d", a[n]);
 			_putchar(32);
 			_putchar(44);
-			n--;
 		}
 
 		printf("\n");
