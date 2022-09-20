@@ -12,7 +12,7 @@
  */
 void print_array(int *a, int n)
 {
-	int e, b, c, d;
+	int e, b, c;
 
 	e = sizeof(a);
 	b = sizeof(int);
