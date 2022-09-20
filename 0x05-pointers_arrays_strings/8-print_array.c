@@ -11,8 +11,8 @@
  * you sre not allowed to use printf
  */
 void print_array(int *a, int n)
-{
-	int e;
+
+	int b, c, e;
 
 	e = sizeof(a);
 	b = sizeof(int);
