@@ -17,9 +17,9 @@ void print_array(int *a, int n)
 	e = sizeof(a);
 	b = sizeof(int);
 
-	c = (e / b);
+	/*c = (e / b);*/
 
-	for (n = 0; n < c; n++)
+	for (n = 0; n < 5; n++)
 	{
 		if (a[n] > 0 || a[n] == 0 || a[n] < 0)
 		{
