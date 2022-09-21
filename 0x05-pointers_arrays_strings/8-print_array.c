@@ -19,7 +19,7 @@ void print_array(int *a, int n)
 
 	c = (e / b);
 	
-	printf("%d\n", c);
+	printf("%d %d %d\n", c,e,b);
 
 	for (n = 0; n < c; n++)
 	{
