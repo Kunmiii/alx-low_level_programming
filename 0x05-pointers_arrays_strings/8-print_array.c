@@ -25,9 +25,6 @@ void print_array(int *a, int n)
 		if (a[n] > 0 || a[n] == 0 || a[n] < 0)
 		{
 			printf("%d, ", a[n]);
-
-			printf(",");
-			printf(" ");
 		}
 
 	}
