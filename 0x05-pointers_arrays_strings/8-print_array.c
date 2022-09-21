@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	int b, c, e;
 
 	e = sizeof(a);
-	b = sizeof(int);
+	b = sizeof(a[0]);
 
 	c = (e / b);
 
@@ -24,7 +24,7 @@ void print_array(int *a, int n)
 		
 		if (a[n] > 0 || a[n] == 0 || a[n] < 0)
 		{
-			printf("%d, %i", a[n], c);
+			printf("%d, ", a[n]);
 
 			printf(",");
 			printf(" ");
