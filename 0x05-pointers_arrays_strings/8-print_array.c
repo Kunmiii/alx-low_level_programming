@@ -10,7 +10,7 @@
  * stored in the array
  * you sre not allowed to use printf
  */
-void print_array(int *a, int n)
+void print_array(int a, int n)
 {
 	int b, c, e;
 
