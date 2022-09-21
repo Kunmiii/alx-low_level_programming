@@ -18,6 +18,8 @@ void print_array(int *a, int n)
 	b = sizeof(a[0]);
 
 	c = (e / b);
+	
+	printf("%d\n", c);
 
 	for (n = 0; n < c; n++)
 	{
