@@ -17,9 +17,9 @@ char *cap_string(char *s)
 		{
 			if (s[0] > 96 && s[0] < 123)
 				t = 1;
-			for (c = 0; xter[m] != '\0'; c++)
+			for (m = 0; xter[m] != '\0'; m++)
 			{
-				if (xter[m] == str[i])
+				if (xter[m] == s[i])
 					t = 1;
 			}
 
@@ -27,7 +27,7 @@ char *cap_string(char *s)
 			{
 				if (s[i] > 96 && s[i] < 123)
 				{
-					str[i] -= 32;
+					s[i] -= 32;
 					t = 0;
 				}
 				else if (s[i] > 64 && s[i] < 91)
