@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
- * _memset - copy memory are
- * @dest: char array to copy inti
+ * _memcpy - copy memory area
+ * @dest: char array to copy into
  * @src: char array to copy from
  * @n: number of elements to copy
  * Return: pointer to destination
