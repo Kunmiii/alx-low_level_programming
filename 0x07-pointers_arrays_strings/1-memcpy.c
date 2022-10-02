@@ -8,7 +8,7 @@
  * @n: number of elements to copy
  * Return: pointer to destination
  */
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	char *temp;
 
