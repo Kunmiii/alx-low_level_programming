@@ -1,3 +1,4 @@
+#include "function_pointers.h"
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -37,6 +38,7 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
-	_putchar("%d\n", o(a, b));
+	_putchar("%d, a");
+	_putchar("%d, b");
 	return (0);
 }
