@@ -16,7 +16,7 @@ void _printint(va_list list);
  * checker - struct checker
  * @type: char type
  * @f: pointer to function
- */ 
+ */
 typedef struct checker
 {
 	char *type;
