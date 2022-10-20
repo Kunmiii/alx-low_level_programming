@@ -1,23 +1,17 @@
-bal  main
+ global    main
 
-	section .text
+          extern    printf
 
-main:	mov	rax, 1
+main:
 
-	mov	rdi, 1
+	  mov   edi, format
 
-	mov 	rsi, msg
+	  xor   eax, eax
 
-	mov	rdx, 17
+	  call  printf
 
-	syscall
+	  mov 	eax, 0
 
-	mov 	rax, 60
+	  ret
 
-	xor	rdi, rdi
-
-	syscall
-
-	section	.data
-
-msg:	db 	"Hello, Holberton", 10
+format: db `Hello, Holberton\n`,0
