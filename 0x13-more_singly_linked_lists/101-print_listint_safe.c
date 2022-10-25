@@ -16,8 +16,9 @@ size_t print_listint_safe(const listint_t *head)
 
 	if (current == NULL)
 		exit(98);
+
 	count = 0;
-	
+
 	while (current != NULL)
 	{
 		hold = current;
