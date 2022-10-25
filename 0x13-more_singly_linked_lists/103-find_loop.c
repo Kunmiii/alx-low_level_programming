@@ -29,7 +29,7 @@ listint_t *find_listint_loop(listint_t *head)
 		else
 			return (NULL);
 	} while (currentf != currents);
-	
+
 	currents = head;
 
 	while (currentf != currents)
