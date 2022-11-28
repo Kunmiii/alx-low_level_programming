@@ -38,7 +38,6 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
-	_putchar("%d, a");
-	_putchar("%d, b");
+	_putchar("%d", o(a,b));
 	return (0);
 }
